@@ -7,4 +7,8 @@ def square(lst):
     Returns:
         list: list of all numbers are squared.
     '''
-    return
+    a = []
+    for i in lst:
+        a.append(i**2)
+    return a
+print(square([2,3,5]))
