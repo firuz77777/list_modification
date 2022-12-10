@@ -6,5 +6,10 @@ def remove_even(lst):
         
     Returns:
         list: list without even numbers.
-    '''
-    return
+    ''' 
+    a = []
+    for i in lst:
+        if i % 2 == 1:
+            a.append(i)
+    return a
+print(remove_even([3,2,3,2,3,4])) 
