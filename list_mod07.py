@@ -7,4 +7,9 @@ def square_and_remove_odd(lst):
     Returns:
         list: list of all odd numbers are squared.
     '''
-    return
+    a = []
+    for i in lst:
+        if i % 2 == 0:
+            a.append(i**2)
+    return a
+    
