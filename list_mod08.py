@@ -7,4 +7,8 @@ def square_and_remove_negative(lst):
     Returns:
         list: list of all non-negative numbers are aquared.
     '''
-    return
+    a = []
+    for i in lst:
+        if i > 0:
+            a.append(i**2)
+    return a
